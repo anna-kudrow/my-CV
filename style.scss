@@ -321,18 +321,18 @@ svg {
 
   .header {
     flex-direction: column;
-  }
 
-  .header__figure {
-    align-items: center;
-  }
+    &__figure {
+      align-items: center;
+    }
 
-  .header__name {
-    text-align: center;
-  }
+    &__name {
+      text-align: center;
+    }
 
-  .header__navigation {
-    order: -1;
+    &__navigation {
+      order: -1;
+    }
   }
 
   .navigation__list {
@@ -393,12 +393,14 @@ svg {
     font-size: 17px;
   }
 
-  .education__img {
-    display: none;
-  }
+  .education {
+    &__img {
+      display: none;
+    }
 
-  .education__text {
-    font-size: 15px;
+    &__text {
+      font-size: 15px;
+    }
   }
 
   .contacts__svg {
