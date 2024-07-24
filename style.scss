@@ -21,6 +21,11 @@ svg {
   fill: $text-color;
 }
 
+.under-dev-text {
+  font-style: italic;
+  font-size: 20px;
+}
+
 .body {
   max-width: 1170px;
   background-image: linear-gradient(to bottom right, #ff512f, #dd2476);
