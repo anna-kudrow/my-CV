@@ -193,6 +193,9 @@ svg {
 .education {
   position: relative;
   padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 
   &__list {
     list-style-type: none;
@@ -202,18 +205,38 @@ svg {
     height: 22px;
     fill: $text-color;
   }
-
   &__text {
     font-size: 25px;
     margin-left: 10px;
   }
-
   &__img {
     width: 101px;
     position: absolute;
     right: 5%;
     top: 59px;
   }
+  &__small-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.languages {
+  &__list {
+    list-style-type: none;
+    lement.style {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  &__item {
+    display: flex;
+  }
+}
+
+.language__svg {
+  width: 25px;
 }
 
 .contacts {
@@ -314,8 +337,13 @@ svg {
     align-items: center;
   }
 
-  .education__img {
-    top: 208px;
+  .education {
+    &__img {
+      top: 208px;
+    }
+    &__small-title {
+      font-size: 15px;
+    }
   }
 }
 
@@ -402,7 +430,6 @@ svg {
     &__img {
       display: none;
     }
-
     &__text {
       font-size: 15px;
     }

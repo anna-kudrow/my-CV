@@ -180,6 +180,9 @@ svg {
 .education {
   position: relative;
   padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 .education__list {
   list-style-type: none;
@@ -198,6 +201,26 @@ svg {
   position: absolute;
   right: 5%;
   top: 59px;
+}
+.education__small-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.languages__list {
+  list-style-type: none;
+}
+.languages__list lement.style {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.languages__item {
+  display: flex;
+}
+
+.language__svg {
+  width: 25px;
 }
 
 .contacts {
@@ -272,6 +295,9 @@ svg {
   }
   .education__img {
     top: 208px;
+  }
+  .education__small-title {
+    font-size: 15px;
   }
 }
 @media (min-width: 320px) and (max-width: 680px) {
