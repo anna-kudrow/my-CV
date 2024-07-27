@@ -123,7 +123,6 @@ svg {
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  line-height: 46px;
 }
 
 .skills {
@@ -209,8 +208,6 @@ svg {
 
 .languages__list {
   list-style-type: none;
-}
-.languages__list lement.style {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -289,6 +286,7 @@ svg {
   }
   .text-normal {
     font-size: 27px;
+    line-height: 38px;
   }
   .contacts__box {
     align-items: center;
@@ -370,5 +368,9 @@ svg {
   }
   .contacts__svg {
     width: 25px;
+  }
+  .footer__wrapper {
+    gap: 5px;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
