@@ -73,7 +73,7 @@ svg {
   font-size: 20px;
 }
 .navigation__link {
-  padding: 10px;
+  padding: 10px 5px;
   display: block;
   transition: transform 0.9s;
 }
@@ -160,13 +160,13 @@ svg {
 .project__wrapper {
   max-width: 1000px;
 }
+.project__preview {
+  width: 100%;
+  border-radius: 30px;
+}
 
 .projects {
   padding-bottom: 120px;
-}
-.projects__video {
-  border-radius: 30px;
-  width: 100%;
 }
 .projects__list {
   list-style-type: none;
