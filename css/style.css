@@ -170,6 +170,10 @@ svg {
 }
 .projects__list {
   list-style-type: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .projects__project-title {
   font-size: 23px;
